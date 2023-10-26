@@ -30,5 +30,6 @@ function clickButton() {
     }
     let grid = Array.from(document.querySelectorAll(".grid-square"));
     for (const square of grid) {
-    square.addEventListener("mouseover", function() {square.style.backgroundColor = "black"})}
+    square.addEventListener("mouseover", function() {square.style.backgroundColor = "black"})
+    }
 }
